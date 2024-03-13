@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.css" integrity="sha512-2eMmukTZtvwlfQoG8ztapwAH5fXaQBzaMqdljLopRSA0i6YKM8kBAOrSSykxu9NN9HrtD45lIqfONLII2AFL/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Img Cropper</title>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="top-content">
+            <h1>Crop img like LinkedIn</h1>
+            <input type="file" id="upload" accept="image/*">
+        </div>
+        
+        
+        <div class="mid-content">
+            <div id="croppieContainer"></div>
+            <img src="" alt="croppedImage" id="croppedImage" >
+        </div>
+
+        <div class="btm-content">
+            <button id="btnCrop">Crop Image</button>
+            <button id="btnRefresh">Crop Another Image</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.js" integrity="sha512-Gs+PsXsGkmr+15rqObPJbenQ2wB3qYvTHuJO6YJzPe/dTLvhy0fmae2BcnaozxDo5iaF8emzmCZWbQ1XXiX2Ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
